@@ -1,2 +1,2 @@
 # foreapere-backend-rust
-The backend of forepere, a Rust with DDD implementation.
+The backend of foreapere, a Rust with Layered Architecture implementation.
