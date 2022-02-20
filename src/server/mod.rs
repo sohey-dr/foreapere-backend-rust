@@ -1,8 +1,7 @@
 mod handler;
 
 use actix_web::{web, App, HttpServer};
-use diesel::prelude::*;
-use diesel::r2d2::{ConnectionManager, Pool};
+use diesel::{r2d2::{Pool, ConnectionManager}, mysql::MysqlConnection};
 use dotenv::dotenv;
 use std::env;
 
